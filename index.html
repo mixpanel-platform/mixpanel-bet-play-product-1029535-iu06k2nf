@@ -391,7 +391,7 @@
             if (first) {
               addFunnelStep(event_list[i], jqlResult[i].count, 0, first);
             } else {
-              addquFunnelStep(event_list[i], jqlResult[i].count, jqlResult[i-1].count-jqlResult[i].count, first);
+              addFunnelStep(event_list[i], jqlResult[i].count, jqlResult[i-1].count-jqlResult[i].count, first);
             }
           }
         });
